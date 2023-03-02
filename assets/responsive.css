@@ -1,0 +1,101 @@
+@media(min-width: 767px) and (max-width: 1124px){
+    section{
+        padding: 2vh 3vw;
+        gap: 25px;
+        flex-direction: column;
+    }
+    
+    .div-jeremy{
+        width: 90%;
+    }
+    
+    .jeremy{
+        padding: 30px 40px 30px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    .img{
+        width: 90px;
+        margin-bottom: 0;
+    }
+    
+    .sections{
+        padding: 55px 20px 25px 30px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    /* days */
+    .days{
+        width: 90%;
+    }
+}
+
+@media(max-width: 767px){
+    section{
+        padding: 2vh 0;
+        gap: 25px;
+        flex-direction: column;
+    }
+    
+    .div-jeremy{
+        width: 90%;
+    }
+    
+    .jeremy{
+        padding:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .name{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    
+    .img{
+        margin-bottom: 0;
+    }
+    
+    .sections{
+        padding: 45px 25px 25px 25px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* days */
+    .days{
+        width: 90%;
+        gap: 20px;
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+    
+    .day{
+        width: 100%;
+    }
+
+    .part{
+        font-weight: 500;
+        color: white;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .hours{
+        color: white;
+        font-weight: 300;
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+    
+}
